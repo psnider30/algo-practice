@@ -1,0 +1,38 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2018-05-03T17:10:44.024Z",
+    "end": "2018-05-03T17:10:44.195Z",
+    "duration": 171
+  },
+  "tests": [
+    {
+      "title": "must return the length of the longest substring with no repeating characters",
+      "fullTitle": "length of longest substring must return the length of the longest substring with no repeating characters",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: lengthOfLongestSubstring is not defined\n    at Context.<anonymous> (test/test.js:5:5)",
+        "message": "lengthOfLongestSubstring is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "must return the length of the longest substring with no repeating characters",
+      "fullTitle": "length of longest substring must return the length of the longest substring with no repeating characters",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: lengthOfLongestSubstring is not defined\n    at Context.<anonymous> (test/test.js:5:5)",
+        "message": "lengthOfLongestSubstring is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
