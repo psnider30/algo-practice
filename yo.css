@@ -1,0 +1,53 @@
+body {
+  background-color: grey;
+}
+
+/* .div1 {
+  background-color: green;
+  float: left;
+  width: 50%;
+  height: 100vh;
+}
+
+.div2 {
+  background-color: red;
+  float: left;
+  width: 50%;
+  height: 100vh;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: auto;
+} */
+
+.div1, .div2 {
+  flex: 50%;
+
+}
+
+.row {
+  margin-top: 5px;
+  display: flex;
+  height: 100vh;
+}
+
+.div1 {
+  background-color: red;
+  margin-right: 10px;
+}
+
+.div2 {
+  background-color: green;
+  margin-left: 10px;
+}
+
+.div3 {
+  background-color: white;
+  padding: 10px;
+  width: 400px;
+  height: 400px;
+  overflow-y:scroll;
+}
